@@ -1,0 +1,223 @@
+/* @font-face { 
+  font-family: 'PP Fragment'; 
+  font-style: serif-regular;  
+  src: url("af-portfolio/fonts/PPFragment-SerifRegular.otf") format("opentype")
+} */
+
+@font-face {
+  font-family: PP Fragment;
+  src: url(./fonts/PPFragment-SerifExtraBold3.otf);
+}
+
+@font-face {
+  font-family: PPFragment-SansLight;
+  src: url(./fonts/PPFragment-SansLight.otf);
+}
+@font-face {
+  font-family: PPFragment-SerifExtraBoldItalic;
+  src: url(./fonts/PPFragment-SerifExtraBoldItalic.otf);
+}
+@font-face {
+  font-family: PPFragment-GlareRegular;
+  src: url(./fonts/PPFragment-GlareRegular.otf);
+}
+
+@font-face {
+  font-family: PPFragment-GlareLight4;
+  src: url(./fonts/PPFragment-GlareLight4.otf);
+}
+
+@font-face {
+  font-family: PPFragment-GlareLightItalic;
+  src: url(./fonts/PPFragment-GlareLightItalic.otf)
+}
+
+/* #root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: none;
+  padding: 0;
+} */
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(12, 20, 52, 0.765);
+  font-family: "PP Fragment", serif-regular;
+  width: 100vmax;
+  height: 5vmin;
+}
+
+img {
+  margin-top: 55px;
+  width: 25vmin;
+  height: 18vmin;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-left: 20px;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  float: right;
+}
+
+.navList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+  margin-top: 0;
+  color: purple;
+}
+
+p { 
+  font-family: PPFragment-GlareLight4;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: PPFragment-GlareLight4;
+  font-size: 25px;
+  flex-wrap: nowrap;
+}
+
+.topProjectWrx {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: start;
+}
+
+.title {
+  font-size: 70px;
+  font-family: PPFragment-SerifExtraBoldItalic;
+  margin-top: none;
+}
+a:visited {
+  color: white;
+}
+
+a {
+  font-family: PPFragment-SansLight;
+  color: rgba(255, 255, 255, 0.839);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellowgreen;
+}
+
+
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h1 {
+  font-family: 'PPFragment-GlareLight4';
+}
+
+h2 {
+  font-family: 'PPFragment-GlareLight4';
+  font-size: 60px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.greet {
+  font-family: PPFragment-SerifExtraBoldItalic;
+  font-style: italic;
+}
+
+.explain {
+  font-family: PPFragment-GlareLightItalic;
+}
+
+
+.name {
+  font-family: PP Fragment;
+  font-size: 90px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(assets/vivid6.jpg);
+  background-size: 100%;
+  background-position: fixed;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  background-color: rgba(17, 128, 91, 0.716);
+  border: 2px solid greenyellow;
+  margin-top: 20vmin;
+  max-width: 1000px;
+  min-height: 35vmax;
+  padding: 10px;
+}
+
+.appContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-family: "PP Fragment", serif-regular;
+  align-items: center;
+}
+
+footer {
+  list-style: none;
+  margin-top: 90vmin;
+}
+
+.foot {
+  color: lightgray;
+  margin-top: 20vmin;
+  padding: 10px;
+} 
+
+ul {
+  list-style: none;
+}
+
+footer ul li a:hover {
+  color: #889F38;
+}
+
+/* COLOR PALETTE #171516, #CCB295, #EBEBEB, #9C6C3E, #889F38, #F1F3F6, #BD974D, #2B4716 */
