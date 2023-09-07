@@ -187,11 +187,24 @@ body {
   padding: 10px;
 }
 
+.main1{
+  padding: 15px;
+  justify-content: space-between;
+}
+
 .appContainer {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
 }
 
 header {
