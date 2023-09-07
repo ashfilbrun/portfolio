@@ -156,6 +156,11 @@ h2 {
   font-family: PPFragment-GlareLightItalic;
 }
 
+#hcontact {
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
 
 .name {
   font-family: PP Fragment;
@@ -205,6 +210,14 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 0px;
+}
+
+.pcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  font-size: 28px;
 }
 
 header {
