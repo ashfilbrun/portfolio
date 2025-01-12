@@ -106,6 +106,12 @@ img {
   margin-top: none;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  font-family: "PP Fragment", serif-regular;
+  align-items: center;
+}
 /* a:visited {
   color: white;}
    */
@@ -130,7 +136,7 @@ li {
 }
 
 p { 
-  font-family: PPFragment-GlareLight4;
+  /* font-family: PPFragment-GlareLight4; */
   font-size: 18px;
   padding-left: 10px;
   padding-top: 25px;
@@ -141,8 +147,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'PPFragment-GlareLight4';
-  font-size: 50px;
+  /* font-size: 50px; */
   padding: 5px;
   margin-top: 20px;
 }
@@ -154,9 +159,10 @@ h3 {
   padding-left: 10px;
 }
 
-.greet {
+h2.greet {
   font-family: PPFragment-SerifExtraBoldItalic;
   font-style: italic;
+  font-size: 50px;
 }
 
 .explain {
@@ -172,6 +178,47 @@ h3 {
 .name {
   font-family: PP Fragment;
   font-size: 90px;
+}
+
+.littleName {
+  font-family: PPFragment-SansLight;
+  font-style: normal;
+  /* font-size: 10px; */
+}
+h2.name3 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-style: oblique;
+}
+
+h2.projectTitle {
+  font-family: PPFragment-GlareLight4;
+  font-size: 50px;
+}
+
+h2#or {
+  font-size: 25px;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center; */
+}
+
+p.info {
+  font-family: PPFragment-SansLight;
+}
+
+a.me {
+  font-size: 25px;
+  padding-right: 5px;
+}
+
+.descriptors {
+  font-family: PPFragment-SansLight;
+  font-style: bold;
+}
+
+.contactContainer {
+  font-family: PPFragment-GlareLight4;
 }
 
 * {
@@ -219,6 +266,12 @@ body {
   margin-top: 0px;
 }
 
+.contactContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .pcontainer{
   display: flex;
   flex-direction: column;
@@ -227,12 +280,6 @@ body {
   font-size: 28px;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  font-family: "PP Fragment", serif-regular;
-  align-items: center;
-}
 
 .projectLinks {
   color: black;
