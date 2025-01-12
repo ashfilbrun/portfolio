@@ -6,6 +6,7 @@ import Home from './Home'
 import SkillsList from './SkillsList'
 import AboutMe from './AboutMe'
 import ContactMe from './ContactMe'
+// eslint-disable-next-line
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 export default function Main () {
@@ -14,9 +15,9 @@ export default function Main () {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/AboutMe' element={<AboutMe />} />
+        <Route path='/Projects' element={<Projects />} />
         <Route path='/SkillsList' element={<SkillsList />} />
         <Route path='/ContactMe' element={<ContactMe />} />
-        <Route path='/Projects' element={<Projects />} />
       </Routes>
     </div>
   )

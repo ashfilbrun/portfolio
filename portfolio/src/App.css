@@ -1,3 +1,5 @@
+
+
 /* @font-face { 
   font-family: 'PP Fragment'; 
   font-style: serif-regular;  
@@ -41,6 +43,8 @@
   padding: 0;
 } */
 
+
+/* TOP OF PAGE ELEMENTS */
 .top {
   display: flex;
   flex-direction: row;
@@ -52,11 +56,13 @@
   height: 5vmin;
 }
 
+/*LOGO IMAGE*/
 img {
   margin-top: 55px;
   width: 25vmin;
   height: 18vmin;
 }
+
 .logo {
   display: flex;
   justify-content: center;
@@ -83,37 +89,26 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: start;
+  /* align-items: start; */
   margin-top: 0;
   color: purple;
 }
+  
+  /* .topProjectWrx {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* justify-content: start; */
 
-p { 
-  font-family: PPFragment-GlareLight4;
-  font-size: 18px;
-}
-
-h3 {
-  font-family: PPFragment-GlareLight4;
-  font-size: 25px;
-  flex-wrap: nowrap;
-}
-
-.topProjectWrx {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: start;
-}
-
-.title {
+.title {    
   font-size: 70px;
   font-family: PPFragment-SerifExtraBoldItalic;
   margin-top: none;
 }
-a:visited {
-  color: white;
-}
+
+/* a:visited {
+  color: white;}
+   */
 
 a {
   font-family: PPFragment-SansLight;
@@ -121,19 +116,24 @@ a {
   font-size: 20px;
   text-decoration: none;
 }
-
+  
 a:hover {
   color: yellowgreen;
 }
-
-
-
+  
 li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+p { 
+  font-family: PPFragment-GlareLight4;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 25px;
 }
 
 h1 {
@@ -145,6 +145,13 @@ h2 {
   font-size: 50px;
   padding: 5px;
   margin-top: 20px;
+}
+
+h3 {
+  font-family: PPFragment-GlareLight4;
+  font-size: 30px;
+  flex-wrap: nowrap;
+  padding-left: 10px;
 }
 
 .greet {
@@ -226,6 +233,11 @@ header {
   font-family: "PP Fragment", serif-regular;
   align-items: center;
 }
+
+.projectLinks {
+  color: black;
+}
+/* FOOTER STYLING */
 
 footer {
   list-style: none;
