@@ -136,7 +136,7 @@ li {
 }
 
 p { 
-  /* font-family: PPFragment-GlareLight4; */
+  
   font-size: 18px;
   padding-left: 10px;
   padding-top: 25px;
@@ -287,14 +287,22 @@ body {
 /* FOOTER STYLING */
 
 footer {
-  list-style: none;
+  list-style:inside;
+  color: lightgray;
   margin-top: 90vmin;
 }
 
-.foot {
+a.footers {
+  /* font-family: PPFragment-GlareLight4;; */
+  font-size: 17px;
+}
+
+ul.foot {
   color: lightgray;
   margin-top: 20vmin;
   padding: 10px;
+  font-family: PPFragment-SansLight;
+  /* font-size: 14px; */
 } 
 
 ul {
