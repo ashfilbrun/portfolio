@@ -183,7 +183,7 @@ h2.greet {
 .littleName {
   font-family: PPFragment-SansLight;
   font-style: normal;
-  /* font-size: 10px; */
+  font-size: 18px;
 }
 h2.name3 {
   color: rgb(0, 0, 0);
